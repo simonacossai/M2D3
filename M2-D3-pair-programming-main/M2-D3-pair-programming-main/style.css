@@ -1,0 +1,156 @@
+* {
+  transition: all 0.25s ease;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.jumbotron {
+  padding: 10rem 3rem;
+  background-image: url(img/mainbg.jpg);
+  background-size: cover;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.375);
+  border-radius: 0px;
+}
+
+.navbar-brand {
+  background-color: rgba(51, 82, 255, 0.748);
+}
+
+.fa-plane {
+  padding: 10px 7px;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.l-txt {
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 8px;
+}
+
+.bold {
+  font-weight: 400;
+}
+
+.jumbotron a {
+  background-color: rgba(51, 82, 255, 0.548);
+  border: none;
+  padding: 0.8rem 1rem;
+}
+.jumbotron a:hover {
+  background-color: rgba(129, 51, 255, 0.548);
+}
+
+.dealOfWeekBG {
+  background-color: #0d4364;
+  background-image: linear-gradient(161deg, #0d4364 0%, #5088b3 100%);
+}
+
+.title-c {
+  position: relative;
+  z-index: 10;
+}
+
+section h2 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.375);
+}
+
+.cardRow {
+  margin-top: -56px;
+  position: relative;
+  z-index: 20;
+}
+
+.card-title {
+  color: rgb(56, 78, 207);
+}
+
+.card-body {
+  border-bottom: 1px solid rgba(68, 73, 104, 0.2);
+}
+
+section {
+  margin-bottom: 8rem;
+}
+
+.welcomeSummerBG {
+  background-color: #4c7eb1;
+  background-image: linear-gradient(168deg, #4c7eb1 0%, #aa83d1 100%);
+}
+
+section .shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem #2a5179a1 !important;
+}
+
+#home {
+  margin: 0;
+}
+
+#dealofDay img {
+  border-radius: 1rem;
+}
+
+.dealOfDayContent {
+  background-color: #3752aabe;
+  border-radius: 0.5rem;
+  color: white;
+  margin-left: -5rem;
+}
+
+.dealOfDayContent button {
+  border: none;
+  background-color: #fff;
+  color: #3752aabe;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.dealOfDayContent button:hover {
+  background-color: #7341b49f;
+  color: white;
+}
+
+.dealOfDayDescr {
+  text-align: left;
+}
+
+
+
+ /*testimonial*/
+ #testimonials{
+  text-align: center;
+  background-color: #4c7eb1;
+  background-image: linear-gradient(168deg, #4c7eb1 0%, #aa83d1 100%);
+  color: #fff;
+  height: 225px;
+}
+
+h2{
+  font-weight: bolder;
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+.carousel-item{
+ padding: 2rem 4rem;
+}
+
+
+/*footer*/
+
+footer {
+  background-color: #1b1b1b;
+  color: #fff;
+}
+
+footer button {
+  border: none;
+  padding: 10px 20px;
+  background-color: rgba(51, 82, 255, 0.448);
+  color: #fff;
+}
+
+footer button:hover {
+  background-color: rgba(165, 87, 255, 0.448);
+}
